@@ -1,0 +1,11 @@
+﻿  Day6.cpp
+D:\Robotika_a_kybernetika\Rocnik2\ZS\Advent_of_code\Day6\Day6.cpp(60,23): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\Robotika_a_kybernetika\Rocnik2\ZS\Advent_of_code\Day6\Day6.cpp(77,27): warning C4244: 'initializing': conversion from '__int64' to 'long double', possible loss of data
+D:\Robotika_a_kybernetika\Rocnik2\ZS\Advent_of_code\Day6\Day6.cpp(80,29): warning C4244: '=': conversion from '__int64' to 'long double', possible loss of data
+D:\Robotika_a_kybernetika\Rocnik2\ZS\Advent_of_code\Day6\Day6.cpp(81,27): warning C4244: '=': conversion from 'long double' to '__int64', possible loss of data
+  Generating code
+  14 of 264 functions ( 5.3%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    15 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Day6.vcxproj -> D:\Robotika_a_kybernetika\Rocnik2\ZS\Advent_of_code\Day6\x64\Release\Day6.exe

@@ -1,0 +1,6 @@
+﻿  main.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 551 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Day12.vcxproj -> D:\Robotika_a_kybernetika\Rocnik2\ZS\Advent_of_code\Day12\x64\Release\Day12.exe

@@ -48,9 +48,7 @@ int uloha1() {
 					alreadyVisited.pop_back();
 				}
 				else if (isBig(pointToVisit[0])) {
-					//alreadyVisited.push_back(pointToVisit);
 					dfs(pointToVisit, alreadyVisited);
-					//alreadyVisited.pop_back();
 				}
 		}
 	};

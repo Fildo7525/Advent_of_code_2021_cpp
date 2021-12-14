@@ -8,7 +8,7 @@
 #include <deque>
 #include <vector>
 #include <algorithm>
-#define PART 1
+#define PART 2
 using namespace std;
 
 int part();

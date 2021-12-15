@@ -6,8 +6,7 @@
 #include <string>
 #include <vector>
 #include <deque>
-#include <map>
-#include <algorithm>
+#include <chrono>
 #include <limits>
 using namespace std;
 using ull = unsigned long long;
@@ -30,10 +29,12 @@ int main()
             cave[i].push_back(el - '0');
         i++;
     }
-
     cout << part1(cave) << endl;
     auto newCave = expand(cave);
+    auto a = std::chrono::high_resolution_clock::now();
     cout << part1(newCave) << endl;
+    auto b = std::chrono::high_resolution_clock::now();
+    cout << chrono::duration_cast<chrono::microseconds>(b - a).count() << " microseconds";
     return 0;
 }
 

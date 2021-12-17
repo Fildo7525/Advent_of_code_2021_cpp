@@ -97,7 +97,7 @@ std::pair<string,ull> parsePacekt(string &packet) {
     bin.erase(bin.begin(), bin.begin() + 6);
     
     if (IDdec == 4) {
-        auto beg = bin.begin(), end = bin.begin() + 5;
+        auto beg = bin.begin();
         auto toShrink = string(beg, bin.end());
 
         int i = 0;
